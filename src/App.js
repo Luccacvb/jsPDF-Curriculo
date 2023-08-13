@@ -1,14 +1,17 @@
 import React from 'react'
 import './App.css'
+import Button from '@mui/material/Button'
 import generatePDF from './generatePDF'
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Baixar Currículo</h1>
-      <button onClick={generatePDF}>Baixar</button>
-    </div>
-  )
+	return (
+		<div className="App">
+			<h1>Baixar Currículo</h1>
+			<Button variant="outlined" onClick={generatePDF}>
+				Baixar
+			</Button>
+		</div>
+	)
 }
 
-export default App;
+export default App
