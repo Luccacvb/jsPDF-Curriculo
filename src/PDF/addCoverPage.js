@@ -15,7 +15,6 @@ export function addCoverPage(doc) {
 	// Desenha um retângulo no tamanho total da página
 	doc.rect(10, 10, 190, 277, 'S')
 
-	// Adiciona textos
 	const title = 'Lucca Carvalho Vilas Boas'
 	const profession = 'Desenvolvedor de software'
 	const introduction = 'Portfólio desenvolvido com jsPDF, acesse para ver o projeto:'
@@ -33,11 +32,10 @@ export function addCoverPage(doc) {
 	const introductionWidth = doc.getTextWidth(introduction)
 	doc.text(introduction, (190 - introductionWidth) / 2, titleYPosition + 35)
 
-	// Adiciona o link do GitHub
 	const githubLinkText = 'Meu GitHub'
 	const githubURL = 'https://github.com/Luccacvb/jsPDF-Curriculo'
-	const githubLinkPosition = (195 + introductionWidth) / 2 // Ajuste conforme necessário
-	doc.setTextColor(0, 0, 255) // Define a cor do texto para azul
+	const githubLinkPosition = (195 + introductionWidth) / 2
+	doc.setTextColor(0, 0, 255)
 	doc.text(githubLinkText, githubLinkPosition, titleYPosition + 35)
 	doc.link(githubLinkPosition, titleYPosition + 30, doc.getTextWidth(githubLinkText), 5, {
 		url: githubURL,

@@ -6,7 +6,7 @@ import generatePDF from './generatePDF'
 function App() {
 	return (
 		<div className="App">
-			<h1>Baixar Currículo</h1>
+			<h1>Baixar Portfólio</h1>
 			<Button variant="outlined" onClick={generatePDF}>
 				Baixar
 			</Button>
