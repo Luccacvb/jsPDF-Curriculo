@@ -18,6 +18,7 @@ export function addCoverPage(doc) {
 	const title = 'Lucca Carvalho Vilas Boas'
 	const profession = 'Desenvolvedor de software'
 	const introduction = 'Portfólio desenvolvido com jsPDF, acesse para ver o projeto:'
+	const linkedin = 'Linkedin: '
 
 	doc.setFontSize(24)
 	const titleWidth = doc.getTextWidth(title)
@@ -32,6 +33,10 @@ export function addCoverPage(doc) {
 	const introductionWidth = doc.getTextWidth(introduction)
 	doc.text(introduction, (190 - introductionWidth) / 2, titleYPosition + 35)
 
+	doc.setFontSize(10)
+	const linkedinWidth = doc.getTextWidth(linkedin)
+	doc.text(linkedin, (195 - linkedinWidth) / 2, titleYPosition + 45)
+
 	const githubLinkText = 'Meu GitHub'
 	const githubURL = 'https://github.com/Luccacvb/jsPDF-Curriculo'
 	const githubLinkPosition = (195 + introductionWidth) / 2
@@ -39,6 +44,16 @@ export function addCoverPage(doc) {
 	doc.text(githubLinkText, githubLinkPosition, titleYPosition + 35)
 	doc.link(githubLinkPosition, titleYPosition + 30, doc.getTextWidth(githubLinkText), 5, {
 		url: githubURL,
+	})
+	doc.setTextColor(0, 0, 0)
+
+	const linkedinLinkText = 'Meu Linkedin'
+	const linkedinURL = 'https://www.linkedin.com/in/lucca-vilas-boas-15181118a'
+	const linkedinLinkPosition = (195 + linkedinWidth) / 2
+	doc.setTextColor(0, 0, 255)
+	doc.text(linkedinLinkText, linkedinLinkPosition, titleYPosition + 45)
+	doc.link(linkedinLinkPosition, titleYPosition + 40, doc.getTextWidth(linkedinLinkText), 5, {
+		url: linkedinURL,
 	})
 	doc.setTextColor(0, 0, 0)
 

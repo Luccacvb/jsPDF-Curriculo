@@ -6,8 +6,7 @@ export function addIntroductionPage(doc) {
 	doc.rect(10, 10, 190, 277, 'S')
 
 	const introduction =
-		'Em meados de 2021, meu irmão me ofereceu a oportunidade de iniciar minha jornada na programação, apresentando-me a um curso de lógica de programação, JavaScript e Python. Foi ali que descobri minha afinidade com JavaScript e decidi seguir meu caminho nessa linguagem, buscando aprimorar minhas habilidades no desenvolvimento front-end. Ao longo do ano seguinte, continuei a aprofundar meus conhecimentos em JavaScript, participando de cursos adicionais que aprimoraram minhas habilidades técnicas, e com isso finalmente conquistei a oportunidade de um estágio na empresa Kartado, onde tenho constantemente desenvolvido e aprimorado minhas habilidades em desenvolvimento front-end e mobile. Este estágio não apenas me permitiu expandir meu conhecimento técnico, mas também tem sido uma experiência valiosa para o meu crescimento pessoal e profissional. Estou entusiasmado com o futuro e comprometido em continuar a aprender e evoluir em minha carreira.'
-
+		'Em 2021 comecei meus estudos com programação, estudando logica com JS e Python, logo em seguida conquistei meu estagio desenvolvendo a parte do front com React, Redux, Redux-Saga, jsPdf, lodash e algumas outras bibliotecas. Aprimorando minha habilidades, conquistei o cargo de desenvolvedor de software atuando no front e no mobile. Mobile utilizamos, React, React Native, Redux, Redux-Saga, WatermelonDB entre outras. Também atuo no processo de realizar revisões de código de outros membros da equipe, escrever spec técnicas, e resolver bugs em conjunto ao time de suporte, quando necessário.'
 	doc.setFillColor(48, 48, 48)
 
 	doc.circle(20, 30.3, 1.2, 'F')
@@ -22,7 +21,8 @@ export function addIntroductionPage(doc) {
 		doc.text(linesText[i], 17, 31.5 + i * 7)
 	}
 
-	const interest = `Meus interesses de aprendizado são amplamente focados no desenvolvimento front-end e mobile, onde tenho conseguido me desenvolver e evoluir cada vez mais com o uso de JavaScript e React, a fim de solucionar problemas complexos. Tenho grande interesse na biblioteca Material-UI, que oferece uma vasta gama de recursos indispensáveis para qualquer projeto. Além disso, gosto de me aventurar em automações, como já demonstrei em um projeto no qual criei um programa para assistir a vídeos de 10 segundos e trazer um resumo desse vídeo com base no título, deduzindo assim o possível conteúdo do vídeo. Para este projeto, utilizei JavaScript e a biblioteca Puppeteer. Também me desafio com cálculos e gosto de criar PDFs através de código. O Git é outra ferramenta poderosa na qual tenho interesse e já estudei, realizando comandos complexos como o 'rebase' para redefinir o histórico de commits e o 'bisect' para encontrar bugs. No meu dia a dia, utilizo comandos como 'merge' e 'cherry-pick', e a compreensão do histórico de commits é essencial para me permitir buscar com facilidade um UUID necessário para continuar o desenvolvimento da minha branch.`
+	const interest =
+		'Estou sempre em busca de novos conceitos e técnicas para aprimorar minhas habilidades. Venho explorando o mundo das IAs, estudando ferramentas como o TensorFlow.js. Também tenho conhecimento em comandos do git para facilitar meu desenvolvimento com outros membros. Não gosto de ficar com duvidas, então sempre estou me comunicando para entender 100% o que devo fazer e sempre em busca de conhecer a fundo o projeto em que estou atuando, acredito no trabalho em equipe, todos em busca do mesmo proposito e deixar o sistema cada vez mais robusto com qualidade '
 
 	doc.setFillColor(48, 48, 48)
 
@@ -36,9 +36,8 @@ export function addIntroductionPage(doc) {
 		doc.text(interestLines[i], 17, 107.5 + i * 7)
 	}
 
-	const objective = `Meus objetivos estão bem definidos tanto em termos pessoais quanto profissionais. No aspecto pessoal, gosto muito de saltar de paraquedas e almejo aprimorar minhas habilidades no esporte. Meu objetivo é alcançar um nível de proficiência que me permita viajar para diferentes locais e experimentar a emoção de saltar em diferentes cenários e condições.
-	Em relação aos meus objetivos profissionais, estou empenhado em evoluir continuamente meus conhecimentos e habilidades em programação. Quero abraçar desafios mais complexos, mergulhar em novas tecnologias e, acima de tudo, criar projetos significativos e úteis. Meu objetivo é desenvolver soluções que possam auxiliar e facilitar o trabalho de outras pessoas, tornando suas vidas mais produtivas e menos estressantes. Estou comprometido em ser um profissional que faz a diferença, tanto para a minha equipe quanto para a comunidade em geral.`
-
+	const objective =
+		'Tenho o objetivo profissional de evoluir tecnicamente, em busca de uma condição financeira melhor, para realizar meus objetivos pessoais que são viajar mais, conhecer novas culturas, e evoluir no esporte que pratico, que é o paraquedismo '
 	doc.setFillColor(48, 48, 48)
 
 	doc.circle(20, 197.3, 1.2, 'F')
