@@ -45,13 +45,8 @@ export function addIntroductionPage(doc) {
 		'Linguagens de Programação: JavaScript, Python\nFrameworks e Bibliotecas: React, React Native, Redux, Redux-Saga, WatermelonDB, TensorFlow.js\nFerramentas de Desenvolvimento: Git, Docker, Django REST Framework\nConceitos de IA: Fundamentos de machine learning e integração com APIs de inteligência artificial',
 	)
 
-	// Seção - Interesses Pessoais e Idiomas
-	addSection(
-		doc,
-		260,
-		'Interesses Pessoais e Idiomas',
-		'Paraquedismo, viagens, exploração cultural\nIdiomas: Português (Nativo), Espanhol (Intermediário), Inglês(Basico)',
-	)
+	// Seção - Interesses Pessoais
+	addSection(doc, 260, 'Interesses Pessoais', 'Paraquedismo, surf, viagens, exploração cultural')
 
 	doc.save('Curriculo.pdf')
 }
