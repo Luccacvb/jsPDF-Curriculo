@@ -17,7 +17,7 @@ export function addCoverPage(doc) {
 
 	const title = 'Lucca Carvalho Vilas Boas'
 	const profession = 'Desenvolvedor de software'
-	const introduction = 'Portfólio desenvolvido com jsPDF, acesse para ver o projeto:'
+	const introduction = 'Currículo desenvolvido com jsPDF, acesse para ver o projeto:'
 	const linkedin = 'Linkedin: '
 
 	doc.setFontSize(24)
