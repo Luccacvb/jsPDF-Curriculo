@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Button from '@mui/material/Button'
-import generatePDF from './generatePDF'
+import generatePDF from './PDF/generatePDF'
 
 function App() {
 	return (

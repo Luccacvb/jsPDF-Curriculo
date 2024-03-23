@@ -1,4 +1,4 @@
-import image_lucca from '../images/image_lucca.jpeg'
+import image_lucca from '../../images/image_lucca.jpeg'
 
 export function addCoverPage(doc) {
 	// Dimensões originais da imagem

@@ -1,6 +1,6 @@
 import { jsPDF } from 'jspdf'
-import { addCoverPage } from './PDF/addCoverPage'
-import { addIntroductionPage } from './PDF/addIntroductionPage'
+import { addCoverPage } from './InitialPage/addCoverPage'
+import { addIntroductionPage } from './IntroductionPage/addIntroductionPage'
 
 function generatePDF() {
 	const doc = new jsPDF()
