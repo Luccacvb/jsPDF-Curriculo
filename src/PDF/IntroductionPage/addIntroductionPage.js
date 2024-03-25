@@ -42,7 +42,7 @@ export function addIntroductionPage(doc) {
 		doc,
 		205,
 		'Habilidades Técnicas',
-		'Linguagens de Programação: JavaScript, Python\nFrameworks e Bibliotecas: React, React Native, Redux, Redux-Saga, WatermelonDB, TensorFlow.js\nFerramentas de Desenvolvimento: Git, Docker, Django REST Framework\nConceitos de IA: Fundamentos de machine learning e integração com APIs de inteligência artificial',
+		'Linguagens de Programação: JavaScript, TypeScript, Python\nFrameworks e Bibliotecas: React, React Native, Redux, Redux-Saga, WatermelonDB, TensorFlow.js\nFerramentas de Desenvolvimento: Git, Docker, Django REST Framework\nConceitos de IA: Fundamentos de machine learning e integração com APIs de inteligência artificial',
 	)
 
 	// Seção - Interesses Pessoais
